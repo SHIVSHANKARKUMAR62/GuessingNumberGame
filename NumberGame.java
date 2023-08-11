@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Number{
 
-    int i, guess, n, k = 5, count = 0;
+    int i, guess,n,k=5,count =0;
 
     public void guessingNumber() {
         System.out.println("A number is chosen between 1 to 100. Guess the number within 5 trials.");
@@ -21,7 +21,7 @@ class Number{
 
 
                 if (number == guess) {
-                    System.out.println("Congratulations! You guessed the number.");
+                    System.out.println("Congratulations! You guessed the number in "+count+" chance.");
                     break;
                 } else if (number>guess) {
                     System.out.println("Guess Number is too Low...");

@@ -14,11 +14,8 @@ class Number{
             int number = 1 + (int) (100 * Math.random());
 
             for (i = 0; i < k; i++) {
-
                 System.out.print("Guess the number: ");
-
                 guess = sc.nextInt();
-
 
                 if (number == guess) {
                     System.out.println("Congratulations! You guessed the number in "+count+" chance.");
@@ -30,6 +27,7 @@ class Number{
                 }
                 count++;
             }
+            
             if (i == k) {
                 System.out.println("You have exhausted " + k + " trials.");
                 System.out.println("The number was " + number);

@@ -33,7 +33,7 @@ class Number{
             if (i == k) {
                 System.out.println("You have exhausted " + k + " trials.");
                 System.out.println("The number was " + number);
-                System.out.print("If You want to Get More Chance then Press 1 otherwise press any other key: ");
+                System.out.print("If You want to Get More Chance then Press 1 otherwise press any other number key: ");
                 n = sc.nextInt();
             }
         }while (n==1);
